@@ -1,0 +1,43 @@
+.box {
+  width: 400px;
+  padding: 40px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #191919;
+  text-align: center;
+  border-radius: 24px;
+  box-shadow: 5px 5px 8px #888888;
+}
+
+.buttom {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.buttom:hover {
+  background: #2ecc71;
+}
+
+@media only screen and (max-width: 900px) {
+  .box {
+    width: 350px;
+    margin-top: 5%;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 700px) {
+  .box {
+    width: 350px;
+    margin-top: -1%;
+  }
+}
